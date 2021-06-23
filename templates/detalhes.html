@@ -1,0 +1,21 @@
+{% extends "./__base.html" %}
+{% block content %}
+
+    <figure class="thumb col-md-4">
+        <img class="img-responsive" src="{{ url_for('imagem', nome_arquivo=capa_jogo) }}">
+    </figure>
+
+
+    <section class="col-md-8">
+        <div style="padding: 10px">
+            <b>ID:</b>{{ jogo.id }}
+        </div>
+        <div style="padding: 10px">
+            <b>Categoria:</b>{{ jogo.categoria }}
+        </div>
+        <div style="padding: 10px">
+            <b>Console:</b>{{ jogo.console }}
+        </div>
+        <a class="btn btn-default" href="{{ url_for('lista') }}">Voltar</a>
+    </section>
+{% endblock content %}

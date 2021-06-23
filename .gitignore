@@ -1,0 +1,11 @@
+.vscode/
+__pycache__/
+db.sqlite3
+database.db
+media/
+env.py
+.env
+.venv
+env/
+venv/
+local_tests.py
