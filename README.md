@@ -29,7 +29,7 @@ Ter instalado:
 # Clonar repositório
 https://github.com/andre23arruda/init-flask
 
-# Entrar na pasta dos arquivos do backend
+# Entrar na pasta
 cd init-flask
 
 # Criar um ambiente virtual
