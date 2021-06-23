@@ -48,3 +48,12 @@ python database/init_db.py
 # Run
 python app.py
 ```
+
+## Login (exemplo)
+- Usuário: root
+- Senha: senha1234
+
+<div align="center">
+    <img alt="Login" title="Login" src="images/login.png?raw=true" width="400px" />
+    <img alt="Home" title="Home" src="images/home.png?raw=true" width="400px" />
+</div>
